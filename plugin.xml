@@ -305,7 +305,7 @@
         </config-file>
 
         <config-file parent="/*" target="AndroidManifest.xml">
-            <uses-permission android:name="android.permission.BLUETOOTH" />
+            <uses-permission android:maxSdkVersion="30" android:name="android.permission.BLUETOOTH" />
         </config-file>
 
         <js-module name="Diagnostic_Bluetooth" src="www/android/diagnostic.bluetooth.js">
